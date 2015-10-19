@@ -33,8 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FlatMapper, Version=0.4.0.17, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Flatmapper.0.4.0.17\lib\net35\FlatMapper.dll</HintPath>
+    <Reference Include="FlatMapper, Version=0.5.0.18, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Flatmapper.0.5.0.18\lib\net35\FlatMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

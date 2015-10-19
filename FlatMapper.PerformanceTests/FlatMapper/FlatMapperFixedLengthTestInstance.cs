@@ -16,9 +16,9 @@ namespace FlatMapper.PerformanceTests.FlatMapper
         protected override void Setup()
         {
             _layout = new Layout<TestObject>.FixedLengthLayout()
-                .WithMember(m => m.Id, settings => settings.WithLenght(10).WithLeftPadding('0'))
-                .WithMember(m => m.Description, settings => settings.WithLenght(10).WithRightPadding(' '))
-                .WithMember(m => m.NullableInt, settings => settings.WithLenght(1).AllowNull("N"));
+                .WithMember(m => m.Id, settings => settings.WithLength(10).WithLeftPadding('0'))
+                .WithMember(m => m.Description, settings => settings.WithLength(10).WithRightPadding(' '))
+                .WithMember(m => m.NullableInt, settings => settings.WithLength(1).AllowNull("N"));
         }
 
         public override void PerformWriteTest(IEnumerable<TestObject> items)
